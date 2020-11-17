@@ -2,24 +2,24 @@
   "Actions": [
     {
       "Icon": "action/images/actionimage", 
-      "Name": "Example Action", 
+      "Name": "Webhooks", 
       "States": [
         {
           "Image": "action/images/action"
         }
       ], 
       "Tooltip": "This is an example tooltip", 
-      "UUID": "com.elgato.template.action"
+      "UUID": "com.mijingo.webhooks.action"
     }
   ], 
   "SDKVersion": 2,
-  "Author": "Elgato Systems", 
+  "Author": "Ryan Irelan", 
   "CodePath": "index.html", 
   "PropertyInspectorPath": "propertyinspector/index.html", 
-  "Description": "Example description", 
-  "Name": "Stream Deck Template", 
+  "Description": "Allows you to send requests to webhooks from Stream Deck.", 
+  "Name": "Stream Deck Webhooks", 
   "Icon": "action/images/action", 
-  "URL": "https://www.elgato.com/en/gaming/stream-deck", 
+  "URL": "https://ryanirelan.com", 
   "Version": "1.0.0",
   "OS": [
     {

@@ -79,6 +79,15 @@ const action = {
 
     onKeyUp: function (jsn) {
         this.doSomeThing(jsn, 'onKeyUp', 'green');
+        //Option with catch
+        fetch('https://craftquest.io/actions/youtubeliveembed/stream/update-stream-status?yttoken=8675309')
+        .then(async r=> console.log(await r.text()))
+        .catch(e=>console.error('Boo...' + e));
+
+        (async () =>
+            console.log(
+         (await (await fetch( jsonURL )).json()))
+        )();
     },
 
     onSendToPlugin: function (jsn) {
